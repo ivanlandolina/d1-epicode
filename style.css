@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&display=swap');
+body{
+    font-family: "Frank Ruhl Libre", serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#content{
+    width: 50%;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header img{
+    width: 200px;
+}
+
+.header p{
+    background-color: rgb(247, 240, 189);
+    width: 500%;
+    text-align: center;
+    padding: 15px;
+    color: rgb(8 120 120);
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.description img{
+    width: 100%;
+    border-radius: 3%;
+}
+
+.description p{
+    margin-top: 0px;
+}
+
+.description .credit{
+    margin-top: 15px;
+    color: rgb(169, 169, 169);
+}
+
+.feat{
+    margin-top: 0px;
+    border-left: 1px solid rgb(229, 158, 43);
+    padding-left: 10px;
+    color: rgb(210, 84, 16);
+    font-weight: 500;
+}
+
+.feat a{
+    color: rgb(8 120 120);
+}
+
+hr{
+    border-top: 1px solid rgb(142, 236, 236);
+}
+
+h2{
+    font-weight: 400;
+    font-size: 1.8em;
+}
+
+h3{
+    font-size: 18px;
+}
+
+#ingredients{
+    padding-top: 20px;
+}
+
+#method li{
+    font-weight: bold;
+}
